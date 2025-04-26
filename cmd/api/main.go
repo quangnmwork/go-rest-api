@@ -11,7 +11,7 @@ func main() {
 	router := gin.Default()
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(http.StatusOK, gin.H{
-			"message": "Hello, World!",
+			"message": "Hello, World! 3",
 		})
 	})
 
